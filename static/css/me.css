@@ -1,3 +1,4 @@
+/*paddding*/
 .m-padded_mini{
     padding: 0.2em !important;
 }
@@ -37,6 +38,20 @@
     padding-top: 5em !important;
     padding-bottom: 5em !important;
 }
+/*margin*/
+.m-margin-td-tiny{
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+}
+.m-margin-top-small{
+    margin-top: 0.5em !important;
+}
+.m-margin-top{
+     margin-top: 1em !important;
+}
+.m-margin-top-large{
+     margin-top: 2em !important;
+}
 /*文本的设置*/
 .m-text{
     font-weight: 300 !important;
@@ -58,6 +73,12 @@
 .m-text-transform{
     text-transform: capitalize !important;
 }
+/*position*/
+.m-top-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 /*display*/
 .m-inline-block{
     display: inline-block;
@@ -66,4 +87,25 @@
 .m-container{
     max-width: 72em !important;
     margin: auto !important;
+}
+/*颜色*/
+.m-black{
+    color:#333;
+}
+/*媒体查询*/
+/*这句话要写在响应式隐藏的上面*/
+.m-mobile-show{
+    display: none !important;
+}
+
+@media screen and (max-width: 768px){
+    .m-mobile-hide {
+        display: none !important;
+    }
+    .m-mobile-hide1 {
+        display: none !important;
+    }
+    .m-mobile-show {
+        display: block !important;
+    }
 }
