@@ -8,6 +8,12 @@ body{
 .m-padded_tiny{
     padding: 0.3em !important;
 }
+.m-padded-small{
+    padding: 0.5em !important;
+}
+.m-padded{
+    padding: 1em !important;
+}
 .m-padded-td-mini{
     /*框架中em代表14px*,!important级别提高才能生效*/
     padding-top: 0.2em !important;
@@ -100,6 +106,16 @@ body{
     top: 0;
     right: 0;
 }
+.m-fixed{
+    position: fixed !important;
+    z-index: 10 !important;
+}
+.m-right-bottom{
+    bottom: 0 !important;
+    right: 0 !important;
+}
+
+
 /*display*/
 .m-inline-block{
     display: inline-block;
